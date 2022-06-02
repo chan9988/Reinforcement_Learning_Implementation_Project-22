@@ -92,4 +92,5 @@ def train():
     plt.plot(x_episode,y_qa,x_episode,y_qb)
     plt.show()
 
-train()
+if __name__ == '__main__':
+    train()

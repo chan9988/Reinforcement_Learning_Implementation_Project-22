@@ -65,12 +65,12 @@ def train():
     model = Policy()
     omega = 5
     # for test
-    action=[6,9.1,9,6]
-    print(select_action_Boltzmann_softmax(omega,action,max(action)))
-    print(select_action_Mellowmax(omega,action,max(action)))
+    #action=[6,9.1,9,6]
+    #print(select_action_Boltzmann_softmax(omega,action,max(action)))
+    #print(select_action_Mellowmax(omega,action,max(action)))
 
     ewma_rewaord=0
-'''
+
     for i_episode in itertools.count(1):
         state = env.reset()
     
@@ -84,7 +84,7 @@ def train():
                 break
         
         print(ep_reward)
-'''
+
 
 if __name__ == '__main__':
     random_seed = 22

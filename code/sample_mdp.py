@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import math
 
 class sample_mdp:
     def __init__(self):
@@ -21,21 +22,26 @@ class sample_mdp:
 
         return self.state,reward,terminal
 
-
+def select_action(beta,Q_a,Q_b):
+    p1= math.exp(beta*Q_a)/(math.exp(beta*Q_a)+math.exp(beta*Q_b))
+    p2= math.exp(beta*Q_b)/(math.exp(beta*Q_a)+math.exp(beta*Q_b))
+    return np.random.choice([0,1],p=[p1,p2])
 
 def train():
     Q_a=0
     Q_b=0
-    episode=1000
+    episode=2000
     alpha=0.1
     gamma=0.98
+    beta=16.55
     for _ in range(episode):
         env=sample_mdp()
         trajectory=[]
         trajectory.append(env.state)
         ter=False
         while not ter:
-            action = np.random.choice([0,1],p=[0.5,0.5])
+            #action = np.random.choice([0,1],p=[0.5,0.5])
+            action=select_action(beta,Q_a,Q_b)
             state,reward,ter=env.take_action(action)
             
             if ter:
@@ -51,6 +57,6 @@ def train():
 
             trajectory.append(state)
         
-        print(Q_a,Q_b)
+        #print(Q_a,Q_b)
 
 train()

@@ -30,11 +30,16 @@ def select_action(beta,Q_a,Q_b):
 def train():
     Q_a=0
     Q_b=0
-    episode=2000
+    episode=20000
     alpha=0.1
     gamma=0.98
     beta=16.55
-    for _ in range(episode):
+
+    x_episode=[]
+    y_qa=[]
+    y_qb=[]
+
+    for i_episode in range(episode):
         env=sample_mdp()
         trajectory=[]
         trajectory.append(env.state)
@@ -58,5 +63,11 @@ def train():
             trajectory.append(state)
         
         #print(Q_a,Q_b)
+        x_episode.append(i_episode)
+        y_qa.append(Q_a)
+        y_qb.append(Q_b)
+
+    plt.plot(x_episode,y_qa,x_episode,y_qb)
+    plt.show()
 
 train()

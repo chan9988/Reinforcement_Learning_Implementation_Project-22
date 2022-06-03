@@ -11,6 +11,7 @@ from torch.distributions import Categorical
 import torch.optim.lr_scheduler as Scheduler
 import itertools
 
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 def mm_omega(omega,action,c):
     m=[]
@@ -64,7 +65,7 @@ class Policy(nn.Module):
         return x
 
     def select_action(self, state):
-        state=torch.tensor(state).float().unsqueeze(0)
+        state=torch.tensor(state).float().unsqueeze(0).to(device)
         probs = self(state)
         m = Categorical(probs)
         action = m.sample()
@@ -97,7 +98,7 @@ class Policy(nn.Module):
 def train():
 
     # Instantiate the policy model and the optimizer
-    model = Policy()
+    model = Policy().to(device)
     optimizer = optim.Adam(model.parameters(), lr=0.01)
     
     # Learning rate scheduler (optional)

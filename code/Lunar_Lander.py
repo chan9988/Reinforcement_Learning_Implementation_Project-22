@@ -136,7 +136,7 @@ def train():
         
         #print(loss)
         if i_episode%10 == 0:
-            print('Episode {}\tlength: {}\treward: {}\t ewma reward: {}\t loss: {}'.format(i_episode, t, ep_reward, ewma_reward, loss))
+            print('Episode {}\tlength: {}\treward: {:.4f}\t ewma reward: {:.4f}\t loss: {}'.format(i_episode, t, ep_reward, ewma_reward, loss))
             #print(loss)
         if ewma_reward > env.spec.reward_threshold:
             #torch.save(model.state_dict(), './preTrained/LunarLander_{}.pth'.format(lr))

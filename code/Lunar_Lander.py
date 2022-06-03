@@ -50,12 +50,10 @@ class Policy(nn.Module):
 
         self.observation_dim = env.observation_space.shape[0]
         self.action_dim = env.action_space.n 
-        self.hidden_size = 32
-
+        self.hidden_size = 128
 
         self.layer1 = nn.Sequential(nn.Linear(self.observation_dim, self.hidden_size), nn.ReLU(True))
-        self.layer2 = nn.Sequential(nn.Linear(self.hidden_size, self.hidden_size), nn.ReLU(True))
-        self.layer3 = nn.Sequential(nn.Linear(self.hidden_size, self.action_dim))
+        self.layer2 = nn.Sequential(nn.Linear(self.hidden_size, self.action_dim))
 
         self.saved_actions = []
         self.rewards = []  
@@ -63,7 +61,6 @@ class Policy(nn.Module):
     def forward(self, state):       
         x = self.layer1(state)
         x = self.layer2(x)
-        x = self.layer3(x)
         x = F.softmax(x,dim=1)
         #x = select_action_Boltzmann_softmax(5,x,max(x).item())
 
@@ -85,7 +82,7 @@ class Policy(nn.Module):
         returns = []
 
         for r in self.rewards[::-1]:
-            R = r*0.001 + gamma * R
+            R = r*0.01 + gamma * R
             returns.insert(0,R) 
                   
         for L, R in zip(saved_actions, returns):

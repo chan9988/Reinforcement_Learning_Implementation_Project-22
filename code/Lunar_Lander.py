@@ -82,7 +82,7 @@ class Policy(nn.Module):
         returns = []
 
         for r in self.rewards[::-1]:
-            R = r*0.01 + gamma * R
+            R = r*0.1 + gamma * R
             returns.insert(0,R) 
                   
         for L, R in zip(saved_actions, returns):

@@ -11,15 +11,6 @@ from torch.distributions import Categorical
 import torch.optim.lr_scheduler as Scheduler
 import itertools
 
-def select_action_Boltzmann_softmax(beta,action,c):
-    for i in range(len(action)):
-        action[i] = math.exp(beta * action[i] - c)
-
-    sum_p = sum(action)
-    for i in range(len(action)):
-        action[i] = action[i]/sum_p
-    
-    return action
 
 def mm_omega(omega,action,c):
     m=[]
@@ -58,11 +49,17 @@ class Policy(nn.Module):
         self.saved_actions = []
         self.rewards = []  
 
+    def select_action_Boltzmann_softmax(self,beta,action,c):
+        action = beta * (action - c)
+        action = F.softmax(action,dim=1)
+                
+        return action
+
     def forward(self, state):       
         x = self.layer1(state)
         x = self.layer2(x)
-        x = F.softmax(x,dim=1)
-        #x = select_action_Boltzmann_softmax(5,x,max(x).item())
+        #x = F.softmax(x,dim=1)
+        x = self.select_action_Boltzmann_softmax(1,x,max(x[0]).item())
 
         return x
 

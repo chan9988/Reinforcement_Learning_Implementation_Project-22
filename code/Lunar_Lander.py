@@ -15,7 +15,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 def mm_omega(omega,action,c):
     m=[]
-    for act in action:
+    for act in action[0]:
         m.append( math.exp(omega * (act-c)) )
     mm = sum(m) / len(m)
     mm = c + math.log(mm) / omega
@@ -23,18 +23,19 @@ def mm_omega(omega,action,c):
 
 def mm_function(beta,omega,action,c,mm):
     m=[]
-    for act in action:
-        m.append( math.exp(beta * (act-mm)) * (act-mm) )
+    for act in action[0]:
+        try:
+            m.append( math.exp(beta * (act-mm)) * (act-mm) )
+        except OverflowError:
+            print(beta,act,mm)
+        
     return sum(m)
 
 def mm_calculate_beta(omega,action,c):
     mm = mm_omega(omega,action,c)
-    sol = optimize.root_scalar(mm_function,args=(omega,action,c,mm), bracket=[-100, 100],method='brentq')
+    sol = optimize.root_scalar(mm_function,args=(omega,action,c,mm), bracket=[-10, 10],method='brentq')
     return sol.root
 
-def select_action_Mellowmax(omega,action,c):
-    beta = mm_calculate_beta(omega,action,c)
-    return select_action_Boltzmann_softmax(beta,action,c)
 
 class Policy(nn.Module):
     def __init__(self):
@@ -53,14 +54,21 @@ class Policy(nn.Module):
     def select_action_Boltzmann_softmax(self,beta,action,c):
         action = beta * (action - c)
         action = F.softmax(action,dim=1)
-                
         return action
+
+    def select_action_Mellowmax(self,omega,action,c):
+        beta = mm_calculate_beta(omega,action,c)
+        #print(beta)
+        return self.select_action_Boltzmann_softmax(beta,action,c)
 
     def forward(self, state):       
         x = self.layer1(state)
         x = self.layer2(x)
         #x = F.softmax(x,dim=1)
-        x = self.select_action_Boltzmann_softmax(1,x,max(x[0]).item())
+        #beta = 1.5
+        #x = self.select_action_Boltzmann_softmax(1.5,x,max(x[0]).item())
+        omega=1
+        x = self.select_action_Mellowmax(omega,x,max(x[0]).item())
 
         return x
 
@@ -97,18 +105,14 @@ class Policy(nn.Module):
 
 def train():
 
+    lr = 0.01
+
     # Instantiate the policy model and the optimizer
     model = Policy().to(device)
-    optimizer = optim.Adam(model.parameters(), lr=0.01)
+    optimizer = optim.Adam(model.parameters(), lr=lr)
     
     # Learning rate scheduler (optional)
     scheduler = Scheduler.StepLR(optimizer, step_size=100, gamma=0.9)
-
-    omega = 5
-    #for test
-    #action=[6,9.1,9,6]
-    #print(select_action_Boltzmann_softmax(omega,action,max(action)))
-    #print(select_action_Mellowmax(omega,action,max(action)))
 
     ewma_reward=0
     loss=0
@@ -134,10 +138,10 @@ def train():
         
         ewma_reward = 0.05 * ep_reward + (1 - 0.05) * ewma_reward
         
-        #print(loss)
+        
         if i_episode%10 == 0:
             print('Episode {}\tlength: {}\treward: {:.4f}\t ewma reward: {:.4f}\t loss: {}'.format(i_episode, t, ep_reward, ewma_reward, loss))
-            #print(loss)
+            
         if ewma_reward > env.spec.reward_threshold:
             #torch.save(model.state_dict(), './preTrained/LunarLander_{}.pth'.format(lr))
             print("Solved! Running reward is now {} and "

@@ -111,16 +111,6 @@ print('='*30)
 
 
 def plot_graph(ewmas):
-    # if len(betas) > 0:
-    #     _, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 10))
-    #     ax1.plot(ewmas)
-    #     ax1.set_ylabel('ewma reward')
-    #     ax1.set_xlabel('episode')
-
-    #     ax2.plot(betas)
-    #     ax2.set_ylabel('beta')
-    #     ax2.set_xlabel('episode')
-    # else:
     plt.title(name_)
     plt.xlabel('episode')
     plt.ylabel('ewma reward')

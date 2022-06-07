@@ -14,6 +14,8 @@ from time import time
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 ############## changed ###################
+
+
 def mm_omega(omega, action, c):
     mm = torch.exp(omega*(action[0]-c)).mean()
     mm = c+torch.log(mm)/omega
@@ -57,7 +59,7 @@ class Policy(nn.Module):
         # modify here to use Boltzmann or Mellowmax
         omega = 5
         beta = 3  # Boltzmann
-        #beta = mm_calculate_beta(omega, x, x.max().item())  # Mellowmax
+        # beta = mm_calculate_beta(omega, x, x.max().item())  # Mellowmax
 
         ############## changed ###################
         # action = beta * (action - c)
@@ -102,24 +104,17 @@ class Policy(nn.Module):
         del self.saved_actions[:]
 
 
-# plot the training curve
-# name_ = f'mello_5_0.005'
-name_ = f'boltz_3_0.005'
-print('='*30)
-print(name_)
-print('='*30)
-
-
-def plot_graph(ewmas):
-    plt.title(name_)
+def plot_graph(ewmas, exp_name=f'boltz_3_0.005'):
+    # plot the training curve
+    plt.title(exp_name)
     plt.xlabel('episode')
     plt.ylabel('ewma reward')
     plt.plot(ewmas)
-    plt.savefig(f'training_curve_{name_}.png')
+    plt.savefig(f'training_curve_{exp_name}.png')
     plt.close()
 
 
-def train():
+def train(exp_name=f'boltz_3_0.005'):
 
     # lr = 0.01
     lr = 0.005
@@ -157,17 +152,17 @@ def train():
         ewma_reward = 0.05 * ep_reward + (1 - 0.05) * ewma_reward
         ewma_reward_list.append(ewma_reward)
         if i_episode % 20 == 0:
-            plot_graph(ewma_reward_list)
+            plot_graph(ewma_reward_list, exp_name)
             print('Episode {}, length: {}, reward: {:.4f}, ewma reward: {:.4f}, loss: {:.4f}, time: {:.1f}'
                   .format(i_episode, t, ep_reward, ewma_reward, loss.item(), e-s))
         if best_ewma_reward < ewma_reward:
             best_ewma_reward = ewma_reward
             torch.save(model.state_dict(),
-                       f'./preTrained/lunar_{name_}_best.pth')
+                       f'./preTrained/lunar_{exp_name}_best.pth')
         if ewma_reward > env.spec.reward_threshold:
             plot_graph(ewma_reward_list)
-            torch.save(model, f'lunar_{name_}_last.pt')
-            torch.save(ewma_reward_list, f'ewma/ewma_{name_}.pt')
+            torch.save(model, f'lunar_{exp_name}_last.pt')
+            torch.save(ewma_reward_list, f'ewma/ewma_{exp_name}.pt')
             print("Solved! Running reward is now {} and "
                   "the last episode runs to {} time steps!".format(ewma_reward, t))
             break
@@ -178,4 +173,9 @@ if __name__ == '__main__':
     env = gym.make('LunarLander-v2')
     env.reset(seed=random_seed)
     torch.manual_seed(random_seed)
-    train()
+    # exp_name = 'mello_5_0.005'
+    exp_name = 'boltz_3_0.005'
+    print('='*30)
+    print(exp_name)
+    print('='*30)
+    train(exp_name)

@@ -13,6 +13,7 @@ class sample_mdp:
         reward = 0
         terminal = False
         if self.state == 0:
+            assert move in [0, 1]
             if move == 0:
                 reward = 0.122
                 self.state = np.random.choice([0, 1], p=[0.66, 0.34])
@@ -39,6 +40,7 @@ def mm_omega(omega, Q_a, Q_b, c):
 
 
 def mm_function(beta, omega, Q_a, Q_b, c, mm):
+    """Target function for solving beta for Maximum Entropy Mellomax Policy"""
     return math.exp(beta * (Q_a - mm)) * (Q_a - mm) + math.exp(beta * (Q_b - mm)) * (Q_b - mm)
 
 
@@ -53,29 +55,49 @@ def select_action_Mellowmax(omega, Q_a, Q_b, c):
     return select_action_Boltzmann_softmax(beta, Q_a, Q_b, c)
 
 
-def train():
-    Q_a = 0
-    Q_b = 0
-    episode = 20000
-    alpha = 0.1
-    gamma = 0.98
-    beta = 16.55
-    omega = 16.55
+def segment_average(array: list, n_ele_per_seg: int = 10):
+    n_smoothed_points = len(array) // 10 + (0 if len(array) % n_ele_per_seg == 0 else 1)
+    segments = np.array_split(np.array(array), n_smoothed_points)
+    new_array = []
+    for seg in segments:
+        new_array.append(np.mean(seg))
+    return new_array
+
+
+def train(method: str,
+          Q_a=0,
+          Q_b=0,
+          episode=2000,
+          alpha=0.1,
+          gamma=0.98,
+          beta=16.55,
+          omega=16.55):
+    assert method in ['Boltzmann Softmax', 'Mellowmax']
 
     x_episode = []
     y_qa = []
     y_qb = []
 
-    for i_episode in tqdm(range(episode)):
+    for i_episode in tqdm(range(episode), desc='SARSA training'):
         env = sample_mdp()
         trajectory = [env.state]
         ter = False
         # print(i_episode)
 
         while not ter:
+            # Original SARSA need to derive (r, s') and extract next a'
+            # However, we don't need to compute it here since this toy problem has only one
+            #     non-terminal state, i.e. s' must equal to s when it doesn't terminate.
+            # If it's terminal, we don't need to compute Q(s',a') anymore and don't need a'.
+
             # action = np.random.choice([0,1],p=[0.5,0.5])
-            # action = select_action_Boltzmann_softmax(beta,Q_a,Q_b,max(Q_a,Q_b))
-            action = select_action_Mellowmax(omega, Q_a, Q_b, max(Q_a, Q_b))
+            if method == 'Boltzmann Softmax':
+                action = select_action_Boltzmann_softmax(beta, Q_a, Q_b, max(Q_a, Q_b))
+            elif method == 'Mellowmax':
+                action = select_action_Mellowmax(omega, Q_a, Q_b, max(Q_a, Q_b))
+            else:
+                raise ValueError(f'Invalid method: "{method}".')
+
             state, reward, ter = env.take_action(action)
 
             if ter:
@@ -96,10 +118,27 @@ def train():
         y_qa.append(Q_a)
         y_qb.append(Q_b)
 
-    plt.plot(x_episode, y_qa, x_episode, y_qb)
+    plt.title(f'{method}')
+    plt.xlabel('Episodes')
+    plt.plot(x_episode, y_qa, label='^Q(s1,a)', color='green')
+    plt.plot(x_episode, y_qb, label='^Q(s1,b)', color='blue')
+    plt.legend()
+    plt.show()
+
+    # Smoothed by averaging over 10 consecutive points
+    plt.title(f'{method} (smoothed)')
+    plt.xlabel('Episodes')
+    x_episode_smoothed = segment_average(x_episode, n_ele_per_seg=10)
+    y_qa_smoothed = segment_average(y_qa, n_ele_per_seg=10)
+    y_qb_smoothed = segment_average(y_qb, n_ele_per_seg=10)
+    plt.plot(x_episode_smoothed, y_qa_smoothed, label='^Q(s1,a)', color='green')
+    plt.plot(x_episode_smoothed, y_qb_smoothed, label='^Q(s1,b)', color='blue')
+    plt.legend()
     plt.show()
 
 
-
 if __name__ == '__main__':
-    train()
+    # Method: ['Boltzmann Softmax', 'Mellowmax']
+    train(method='Boltzmann Softmax')
+    train(method='Mellowmax')
+

@@ -57,8 +57,8 @@ class Policy(nn.Module):
         x = self.layer1(state)
         x = self.layer2(x)
         # modify here to use Boltzmann or Mellowmax
-        omega = 5
         beta = 3  # Boltzmann
+        omega = 5
         # beta = mm_calculate_beta(omega, x, x.max().item())  # Mellowmax
 
         ############## changed ###################

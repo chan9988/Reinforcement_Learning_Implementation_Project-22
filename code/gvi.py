@@ -274,7 +274,7 @@ def generalized_value_iteration(
 
 
 if __name__ == '__main__':
-    SAVE_DIR = 'data/sample_mdp'
+    SAVE_DIR = 'data/sample_mdp/GVI'
     generalized_value_iteration(
         # Method: 'Boltzmann Softmax' or 'Mellowmax'
         method='Boltzmann Softmax',

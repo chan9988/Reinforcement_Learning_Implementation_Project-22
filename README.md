@@ -10,9 +10,12 @@ points. Run the following codes to replicate it:
 ```shell
 python3 code/sample_mdp_sarsa.py
 ```
-
-![](data/sample_mdp/SARSA/SARSA_sampleMDP_Boltzmann%20Softmax_smoothed.png | width=100)
-![](data/sample_mdp/SARSA/SARSA_sampleMDP_Mellowmax_smoothed.png | width=100)
+<table>
+<tr>
+        <td><img src="data/sample_mdp/SARSA/SARSA_sampleMDP_Boltzmann%20Softmax_smoothed.png" width="300px"></th>
+        <td><img src="data/sample_mdp/SARSA/SARSA_sampleMDP_Mellowmax_smoothed.png" width="300px"></td>
+    </tr>
+</table>
 
 ### Generalized Value Iteration (GVI)
 
@@ -22,7 +25,15 @@ In the convergence theorem of GVI, the operator with non-expansion property is p
 python3 code/sample_mdp_gvi.py
 ```
 
-![](data/sample_mdp/GVI/BoltzmannSoftmax/GIF.gif | width=100)
-![](data/sample_mdp/GVI/BoltzmannSoftmax/Boltzmann%20Softmax_fixed_points.png | width=100)
-![](data/sample_mdp/GVI/Mellowmax/GIF.gif | width=100)
-![](data/sample_mdp/GVI/Mellowmax/Mellowmax_fixed_points.png | width=100)
+<table>
+<tr>
+  <th>Update Vectors</th>
+  <td><img src="data/sample_mdp/GVI/BoltzmannSoftmax/GIF.gif" width="300px"></th>
+  <td><img src="data/sample_mdp/GVI/Mellowmax/GIF.gif" width="300px"></th>
+</tr>
+<tr>
+  <th>Fixed Points</th>
+  <td><img src="data/sample_mdp/GVI/BoltzmannSoftmax/Boltzmann%20Softmax_fixed_points.png" width="300px"></td>
+  <td><img src="data/sample_mdp/GVI/Mellowmax/Mellowmax_fixed_points.png" width="300px"></td>
+</tr>
+</table>

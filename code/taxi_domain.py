@@ -129,7 +129,7 @@ def mm_function(beta,omega,action,c,mm):
 
 def mm_calculate_beta(omega,action,c):
     mm = mm_omega(omega,action,c)
-    sol = optimize.root_scalar(mm_function,args=(omega,action,c,mm), bracket=[-10, 10],method='brentq')
+    sol = optimize.root_scalar(mm_function,args=(omega,action,c,mm), bracket=[0, 10],method='brentq')
     return sol.root
 
 def train(method,Q_value,epsilon=0.1,beta=1,omega=10,alpha=0.1,gamma=0.99):

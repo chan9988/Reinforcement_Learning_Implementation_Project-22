@@ -150,6 +150,7 @@ def train(method: str,
     plt.xlabel('Episodes')
     plt.plot(x_episode, y_qa, label='^Q(s1,a)', color='green')
     plt.plot(x_episode, y_qb, label='^Q(s1,b)', color='blue')
+    plt.yticks(np.arange(0.,1.2+0.1,0.1))
     plt.legend()
     plt.savefig(os.path.join(save_dir, f'SARSA_sampleMDP_{method}'))
     # plt.show()
@@ -163,6 +164,7 @@ def train(method: str,
     y_qb_smoothed = segment_average(y_qb, n_ele_per_seg=10)
     plt.plot(x_episode_smoothed, y_qa_smoothed, label='^Q(s1,a)', color='green')
     plt.plot(x_episode_smoothed, y_qb_smoothed, label='^Q(s1,b)', color='blue')
+    plt.yticks(np.arange(0.,1.2+0.1,0.1))
     plt.legend()
     plt.savefig(os.path.join(save_dir, f'SARSA_sampleMDP_{method}_smoothed'))
     # plt.show()
@@ -172,5 +174,5 @@ def train(method: str,
 if __name__ == '__main__':
     # Method: ['Boltzmann Softmax', 'Mellowmax']
     SAVE_DIR = 'data/sample_mdp/SARSA'
-    train(method='Boltzmann Softmax', save_dir=SAVE_DIR)
+    # train(method='Boltzmann Softmax', save_dir=SAVE_DIR)
     train(method='Mellowmax', save_dir=SAVE_DIR)

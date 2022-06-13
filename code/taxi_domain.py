@@ -307,9 +307,7 @@ def test(method,Q_value,epsilon=0.1,beta=1,omega=10,alpha=0.1,gamma=0.99,round=1
         print(reward)
           
 
-
 #Q_value=Q_value_init()
-
 #Q_value = np.loadtxt('Q_epi-greedy.txt')
 #Q_value = train("epi-greedy", Q_value, epsilon=0.1)
 #test("epi-greedy", Q_value, epsilon=0.1)
@@ -322,5 +320,7 @@ def test(method,Q_value,epsilon=0.1,beta=1,omega=10,alpha=0.1,gamma=0.99,round=1
 
 #Q_value = np.loadtxt('Q_mm.txt')
 #Q_value = train("mm", Q_value, omega=1)
+#test("epi-greedy", Q_value, epsilon=0.1)
+#test("boltz", Q_value, beta=1)
 #test("mm", Q_value, omega=1)
 #np.savetxt('Q_mm.txt', Q_value)

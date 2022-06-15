@@ -1,0 +1,21 @@
+\section{Detailed Implementation}
+\label{section:implementation}
+Please explain your implementation in detail. You may do this with the help of pseudo code or a figure of system architecture. Please also highlight which parts of the algorithm lead to the most difficulty in your implementation.
+\subsection{Lunar Lander Domain}
+\subsection*{Experiment Settings}
+The paper's settings:
+\begin{itemize}
+    \item network: a hidden layer comprised of 16 units with RELU activation functions + a second layer with 16 units and softmax activation functions
+    \item use REINFORCE to train the network
+    \item batch episode size: 10
+    \item learning rate = 0.005
+    \item optimizer: Adam
+    \item do 10 experiments
+    \begin{itemize}
+        \item Boltzmann softmax: $\beta=1,2,3,5,10$
+        \item Mellowmax: $\omega=3,5,7,8,11$
+    \end{itemize}
+    \item each experiments do 400 runs, each runs train 40000 episodes
+\end{itemize}
+Our expiriment settings are basically the same as the paper's, the only different is we do each experiment 3 runs (seed=22, 321, 7654), each run trains 15000 episodes.
+Because the training needs a lot of time, so we simplified this part.

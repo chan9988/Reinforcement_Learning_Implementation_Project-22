@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.10)  13 JUN 2022 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.10)  15 JUN 2022 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,12 +611,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--62
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 12--62
-\T1/ptm/m/n/10 (+20) In our al-go-rithm, we set some pro-hib-ited state-action 
-pair's Q value to neg-a-tive in-fin-ity,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--62
 
  []
@@ -661,17 +655,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.73 \end{document}
+l.76 \end{document}
                     <./taxi_1.png> <./taxi_2.png> <./taxi_3.png>] (report.aux)
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: D3AE1318FA889D72521C717CCD9C4A67;718.
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: FA7341B226D6A51938FD7998C7E55081;723
+(rerunfilecheck)             After:  D3AE1318FA889D72521C717CCD9C4A67;718.
  ) 
 Here is how much of TeX's memory you used:
- 13219 strings out of 478582
- 211164 string characters out of 2844816
+ 13220 strings out of 478582
+ 211693 string characters out of 2844816
  529726 words of memory out of 3000000
  31091 multiletter control sequences out of 15000+600000
- 494528 words of font info for 105 fonts, out of 8000000 for 9000
+ 494594 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,8n,76p,1005b,339s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\user\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
@@ -683,7 +683,7 @@ ts/cm/cmmi9.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/font
 s/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (2 pages, 133945 bytes).
+Output written on report.pdf (2 pages, 134633 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)

@@ -1,7 +1,3 @@
 \section{Problem Overview}
 \label{section:intro}
-Please provide a brief overview of the selected paper. You may want to discuss the following aspects:
-\begin{itemize}
-    \item The main research problem tackled by the paper
-    \item High-level description of the proposed method
-\end{itemize}
+This paper (\cite{asadi2017alternative}) introduces a new softmax operator during action selection, which can be used in a SARSA algorithm that computes a Boltzmann policy with a state-dependent temperature parameter. The algorithm is convergent and serves as an alternative to the original Boltzmann policy. The main research problem that is tackled by the paper is that all the common using softmax operator are not idea operator. Some are not non-expansion, some are not differentiable. Hence, The author proposed Mellowmax softmax operator that is proved to be an idea operator and generate a well trade-off between exploration and exploitation during action selection.

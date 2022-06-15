@@ -39,7 +39,7 @@ def make_gif(source_img_dir):
     imgs = (Image.open(f) for f in sorted(glob.glob(fp_in)))
     img = next(imgs)  # extract first image from iterator
     img.save(fp=fp_out, format='GIF', append_images=imgs,
-             save_all=True, duration=200, loop=0)
+             save_all=True, duration=100, loop=0)
 
 
 def boltzmann_softmax(_s_, _Q_a, _Q_b, beta) -> float:
@@ -232,6 +232,10 @@ def generalized_value_iteration(
                 plt.arrow(qb, qa, final_db, final_da, width=final_arr_width, color='green')
             if plot_first_vec:
                 plt.arrow(qb, qa, first_db, first_da, width=first_arr_width, color='blue')
+            # Plot fixed point
+            plt.scatter([final_qb], [final_qa], color='red')
+        # Description of current var value
+        plt.text(start_b, start_a, f'{var_name}={beta:.2f}', fontsize=20, color='red')
         # Image title
         title_str = f'GVI ({method})'
         if plot_final_vec and not plot_first_vec:
@@ -239,7 +243,7 @@ def generalized_value_iteration(
         elif not plot_final_vec and plot_first_vec:
             title_str += f' ({var_name}={beta:.5f}) ("blue=first")'
         elif plot_final_vec and plot_first_vec:
-            title_str += f' ({var_name}={beta:.5f}) (green=final;blue=first)'
+            title_str += f' ({var_name}={beta:.5f})\n(green=final;blue=first)'
         else:
             raise ValueError('Must plot at least one type.')
         title_str += f' (vecLenReduce={vec_len_reduce}) '
@@ -277,8 +281,8 @@ if __name__ == '__main__':
     SAVE_DIR = 'data/sample_mdp/GVI'
     generalized_value_iteration(
         # Method: 'Boltzmann Softmax' or 'Mellowmax'
-        method='Boltzmann Softmax',
-        # method='Mellowmax',
+        # method='Boltzmann Softmax',
+        method='Mellowmax',
         # General settings
         save_dir=SAVE_DIR,
         gamma=0.98,
@@ -287,8 +291,8 @@ if __name__ == '__main__':
         plot_first_vec=True,
         plot_final_vec=True,
         # Range of beta to iterate (if you use mellowmax, view beta as omega here)
-        start_beta=16.0,
-        end_beta=18.0,
+        start_beta=16.7,
+        end_beta=17.2,
         step_beta=0.02,
         # Range of init Q_a to iterate
         start_a=0.30,
@@ -299,9 +303,9 @@ if __name__ == '__main__':
         end_b=1.0,
         step_b=0.1,
         # Plot settings
-        figsize=(10, 10),
+        figsize=(6, 6),
         vec_len_reduce=2,
         first_arr_width=0.0010,
         final_arr_width=0.002)
     # Make GIF
-    make_gif(SAVE_DIR)
+    # make_gif(SAVE_DIR)

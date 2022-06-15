@@ -1,377 +1,414 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.10)  31 MAY 2022 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.7)  16 JUN 2022 00:22
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./report.tex
-(report.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+**/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.tex
+(/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen138
-)
-(neurips_2020.sty
-Package: neurips_2020 2020/01/31 NeurIPS 2020 submission/camera-ready style fil
-e
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+\bibindent=\dimen134
+) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/neurips_2020.sty
+Package: neurips_2020 2020/01/31 NeurIPS 2020 submission/camera-ready style file
+ (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.st
-y
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks16
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+\@envbody=\toks14
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip49
 \bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count193
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+\c@NAT@ctr=\count175
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+\KV@toks@=\toks15
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
-\Gm@cnth=\count194
-\Gm@cntv=\count195
-\c@Gm@tempcnt=\count196
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
-\Gm@dimlist=\toks18
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+)
 \@neuripsabovecaptionskip=\skip51
 \@neuripsbelowcaptionskip=\skip52
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
-2.
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-))
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
+)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.st
-y
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
-y
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.
-sty
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-)
-\@linkdim=\dimen147
-\Hy@linkcounter=\count197
-\Hy@pagecounter=\count198
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count179
+\Hy@pagecounter=\count180
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count199
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+\Hy@SavedSpaceFactor=\count181
+\pdfmajorversion=\count182
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count266
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count183
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen148
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen144
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
-sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count267
-\Field@Width=\dimen149
-\Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
-LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
+\Fld@menulength=\count184
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+ (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count268
-\c@Item=\count269
-\c@Hfootnote=\count270
+\Hy@abspage=\count185
+\c@Item=\count186
+\c@Hfootnote=\count187
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
-with kernel methods
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count271
-\c@bookmark@seq@number=\count272
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
-check.sty
+\Fld@listcount=\count188
+\c@bookmark@seq@number=\count189
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
-unter.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip53
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen151
-\lightrulewidth=\dimen152
-\cmidrulewidth=\dimen153
-\belowrulesep=\dimen154
-\belowbottomsep=\dimen155
-\aboverulesep=\dimen156
-\abovetopsep=\dimen157
-\cmidrulesep=\dimen158
-\cmidrulekern=\dimen159
-\defaultaddspace=\dimen160
-\@cmidla=\count273
-\@cmidlb=\count274
-\@aboverulesep=\dimen161
-\@belowrulesep=\dimen162
-\@thisruleclass=\count275
-\@lastruleclass=\count276
-\@thisrulewidth=\dimen163
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+\heavyrulewidth=\dimen147
+\lightrulewidth=\dimen148
+\cmidrulewidth=\dimen149
+\belowrulesep=\dimen150
+\belowbottomsep=\dimen151
+\aboverulesep=\dimen152
+\abovetopsep=\dimen153
+\cmidrulesep=\dimen154
+\cmidrulekern=\dimen155
+\defaultaddspace=\dimen156
+\@cmidla=\count190
+\@cmidlb=\count191
+\@aboverulesep=\dimen157
+\@belowrulesep=\dimen158
+\@thisruleclass=\count192
+\@lastruleclass=\count193
+\@thisrulewidth=\dimen159
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks21
+\@emptytoks=\toks19
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/units\nicefrac.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip54
 \L@UnitsRaiseTextstyle=\skip55
 \L@UnitsRaiseScriptstyle=\skip56
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-))
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
-Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count277
-)
-\MT@toks=\toks22
-\MT@tempbox=\box50
-\MT@count=\count278
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
-LaTeX Info: Redefining \leftprotrusion on input line 1028.
-LaTeX Info: Redefining \rightprotrusion on input line 1036.
-LaTeX Info: Redefining \textls on input line 1195.
-\MT@outer@kern=\dimen164
-LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
-\MT@listname@count=\count279
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdft
-ex.def
-File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 900.
-LaTeX Info: Redefining \lslig on input line 900.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks20
+\MT@count=\count194
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen160
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count195
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
 \MT@outer@space=\skip57
 )
 Package microtype Info: Loading configuration file microtype.cfg.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count196
+\float@exts=\toks21
+\float@box=\box45
+\@float@everytoks=\toks22
+\@floatcapt=\box46
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count197
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+ (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
-File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
-)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip58
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count198
+\c@ALG@rem=\count199
+\c@ALG@nested=\count266
+\ALG@tlm=\skip58
+\ALG@thistlm=\skip59
+\c@ALG@Lnr=\count267
+\c@ALG@blocknr=\count268
+\c@ALG@storecount=\count269
+\c@ALG@tmpcounter=\count270
+\ALG@tmplength=\skip60
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen163
+\WF@size=\dimen164
+\c@WF@wrappedlines=\count271
+\WF@box=\box47
+\WF@everypar=\toks24
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/share/texlive/texmf-dist/tex/latex/mwe/mwe.sty
+Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
+ (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count272
+\l__pdf_internal_box=\box48
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count273
+\g__xparse_grabber_int=\count274
+\l__xparse_m_args_int=\count275
+\l__xparse_v_nesting_int=\count276
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+ (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+)) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count277
+\c@Blindtext=\count278
+\c@blind@countparstart=\count279
+\blind@countxx=\count280
+\blindtext@numBlindtext=\count281
+\blind@countyy=\count282
+\c@blindlist=\count283
+\c@blindlistlevel=\count284
+\c@blindlist@level=\count285
+\blind@listitem=\count286
+\c@blind@listcount=\count287
+\c@blind@levelcount=\count288
+\blind@mathformula=\count289
+\blind@Mathformula=\count290
+\c@blind@randomcount=\count291
+\c@blind@randommax=\count292
+\c@blind@pangramcount=\count293
+\c@blind@pangrammax=\count294
+)) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen165
+\captionmargin@=\dimen166
+\captionwidth=\dimen167
+\caption@tempdima=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count295
+\c@continuedfloat=\count296
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count297
+\c@subtable=\count298
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen165
-))
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+\@emptytoks=\toks25
+\ex@=\dimen172
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen166
+\pmbraise@=\dimen173
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
-)
-\inf@bad=\count280
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count281
-\leftroot@=\count282
-LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count283
-\DOTSCASE@=\count284
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-\big@size=\dimen167
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count285
-\c@MaxMatrixCols=\count286
+\inf@bad=\count299
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count300
+\leftroot@=\count301
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count302
+\DOTSCASE@=\count303
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen174
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count304
+\c@MaxMatrixCols=\count305
 \dotsspace@=\muskip17
-\c@parentequation=\count287
-\dspbrk@lvl=\count288
-\tag@help=\toks24
-\row@=\count289
-\column@=\count290
-\maxfields@=\count291
-\andhelp@=\toks25
-\eqnshift@=\dimen168
-\alignsep@=\dimen169
-\tagshift@=\dimen170
-\tagwidth@=\dimen171
-\totwidth@=\dimen172
-\lineht@=\dimen173
-\@envbody=\toks26
-\multlinegap=\skip59
-\multlinetaggap=\skip60
-\mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+\c@parentequation=\count306
+\dspbrk@lvl=\count307
+\tag@help=\toks26
+\row@=\count308
+\column@=\count309
+\maxfields@=\count310
+\andhelp@=\toks27
+\eqnshift@=\dimen175
+\alignsep@=\dimen176
+\tagshift@=\dimen177
+\tagwidth@=\dimen178
+\totwidth@=\dimen179
+\lineht@=\dimen180
+\@envbody=\toks28
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
-ex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
-\l__pdf_internal_box=\box53
-) (report.aux)
+) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -439,109 +476,383 @@ LaTeX Font Info:    ... okay on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 49.
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+\AtBeginShipoutBox=\box51
+Package hyperref Info: Link coloring OFF on input line 59.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
-estring.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count293
+\c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
- (report.out) (report.out)
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
+ (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.out) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 49.
-Package microtype Info: Applying patch `item' on input line 49.
-Package microtype Info: Applying patch `toc' on input line 49.
-Package microtype Info: Applying patch `eqnum' on input line 49.
-Package microtype Info: Applying patch `footnote' on input line 49.
+LaTeX Info: Redefining \microtypecontext on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 49.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 59.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count312
+\scratchdimen=\dimen181
+\scratchbox=\box52
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen182
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks31
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
-
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
-
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-2.
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 62.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-(1-overview.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-.
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+ (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/1-overview.tex) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/2-algorithm.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-(2-algorithm.tex) (3-implementation.tex) (4-evaluation.tex) (5-conclusion.tex)
-No file report.bbl.
-[1
+)
+<./images/algorithm2.png, id=78, 433.62pt x 167.62625pt>
+File: ./images/algorithm2.png Graphic file (type png)
+<use ./images/algorithm2.png>
+Package pdftex.def Info: ./images/algorithm2.png  used on input line 15.
+(pdftex.def)             Requested size: 278.23827pt x 107.56433pt.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 17.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 17.
+ [1
 
 
-{C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (report.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/algorithm2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+<./images/mel2.png, id=98, 700.6175pt x 83.31125pt>
+File: ./images/mel2.png Graphic file (type png)
+<use ./images/mel2.png>
+Package pdftex.def Info: ./images/mel2.png  used on input line 25.
+(pdftex.def)             Requested size: 278.23827pt x 33.08618pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
+
+ []
+
+<./images/entropy2.png, id=99, 404.51125pt x 117.43875pt>
+File: ./images/entropy2.png Graphic file (type png)
+<use ./images/entropy2.png>
+Package pdftex.def Info: ./images/entropy2.png  used on input line 40.
+(pdftex.def)             Requested size: 278.23827pt x 80.78014pt.
+<./images/result2.png, id=100, 400.49625pt x 141.52875pt>
+File: ./images/result2.png Graphic file (type png)
+<use ./images/result2.png>
+Package pdftex.def Info: ./images/result2.png  used on input line 47.
+(pdftex.def)             Requested size: 278.23827pt x 98.33087pt.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 50.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 50.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 50--67
+
+ []
+
+(/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/3-implementation.tex
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 11.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./images/mel2.png> <./images/entropy2.png> <./images/result2.png>] [3]
+<./images/taxi.png, id=123, 152.57pt x 135.50626pt>
+File: ./images/taxi.png Graphic file (type png)
+<use ./images/taxi.png>
+Package pdftex.def Info: ./images/taxi.png  used on input line 118.
+(pdftex.def)             Requested size: 99.37125pt x 88.25996pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--135
+
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 121--135
+\T1/ptm/m/n/10 (+20) we pre-form SARSA with epsilon-greedy, SARSA with Boltz-mann soft-max and SARSA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--135
+
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 121--135
+\T1/ptm/m/n/10 (+20) In epsilon-greedy method, train-ing and test-ing both use epsilon-greedy to se-lect ac-tion.
+ []
+
+[4 <./images/taxi.png>]) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/4-evaluation.tex
+<./images/simple_mdp_fig.png, id=135, 618.31pt x 434.62375pt>
+File: ./images/simple_mdp_fig.png Graphic file (type png)
+<use ./images/simple_mdp_fig.png>
+Package pdftex.def Info: ./images/simple_mdp_fig.png  used on input line 23.
+(pdftex.def)             Requested size: 99.37125pt x 69.84628pt.
+ [5 <./images/simple_mdp_fig.png>]
+<./images/SARSA_Boltz_paper.png, id=144, 695.59875pt x 557.08125pt>
+File: ./images/SARSA_Boltz_paper.png Graphic file (type png)
+<use ./images/SARSA_Boltz_paper.png>
+Package pdftex.def Info: ./images/SARSA_Boltz_paper.png  used on input line 39.
+(pdftex.def)             Requested size: 160.97145pt x 142.2621pt.
+<./images/SARSA_sampleMDP_Boltzmann Softmax_smoothed.png, id=145, 462.528pt x 346.896pt>
+File: ./images/SARSA_sampleMDP_Boltzmann Softmax_smoothed.png Graphic file (type png)
+<use ./images/SARSA_sampleMDP_Boltzmann Softmax_smoothed.png>
+Package pdftex.def Info: ./images/SARSA_sampleMDP_Boltzmann Softmax_smoothed.png  used on input line 40.
+(pdftex.def)             Requested size: 160.97679pt x 142.26532pt.
+<./images/white.png, id=146, 256.96pt x 113.42375pt>
+File: ./images/white.png Graphic file (type png)
+<use ./images/white.png>
+Package pdftex.def Info: ./images/white.png  used on input line 42.
+(pdftex.def)             Requested size: 160.97992pt x 142.26564pt.
+<./images/SARSA_sampleMDP_Mellowmax_smoothed.png, id=147, 462.528pt x 346.896pt>
+File: ./images/SARSA_sampleMDP_Mellowmax_smoothed.png Graphic file (type png)
+<use ./images/SARSA_sampleMDP_Mellowmax_smoothed.png>
+Package pdftex.def Info: ./images/SARSA_sampleMDP_Mellowmax_smoothed.png  used on input line 43.
+(pdftex.def)             Requested size: 160.97679pt x 142.26532pt.
+<./images/simpleMDP_GVI_boltz_paper.png, id=153, 586.19pt x 408.52625pt>
+File: ./images/simpleMDP_GVI_boltz_paper.png Graphic file (type png)
+<use ./images/simpleMDP_GVI_boltz_paper.png>
+Package pdftex.def Info: ./images/simpleMDP_GVI_boltz_paper.png  used on input line 75.
+(pdftex.def)             Requested size: 169.91919pt x 142.26323pt.
+<./images/simpleMDP_GVI_mm_paper.png, id=154, 601.24625pt x 384.43625pt>
+File: ./images/simpleMDP_GVI_mm_paper.png Graphic file (type png)
+<use ./images/simpleMDP_GVI_mm_paper.png>
+Package pdftex.def Info: ./images/simpleMDP_GVI_mm_paper.png  used on input line 76.
+(pdftex.def)             Requested size: 169.92577pt x 142.26851pt.
+
+Underfull \vbox (badness 5667) has occurred while \output is active []
+
+ [6 <./images/SARSA_Boltz_paper.png> <./images/SARSA_sampleMDP_Boltzmann Softmax_smoothed.png> <./images/white.png> <./images/SARSA_sampleMDP_Mellowmax_smoothed.png>]
+<./images/our_simple_boltz1.png, id=167, 433.62pt x 433.62pt>
+File: ./images/our_simple_boltz1.png Graphic file (type png)
+<use ./images/our_simple_boltz1.png>
+Package pdftex.def Info: ./images/our_simple_boltz1.png  used on input line 91.
+(pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
+<./images/our_simple_boltz2.png, id=168, 433.62pt x 433.62pt>
+File: ./images/our_simple_boltz2.png Graphic file (type png)
+<use ./images/our_simple_boltz2.png>
+Package pdftex.def Info: ./images/our_simple_boltz2.png  used on input line 92.
+(pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
+<./images/our_simple_boltz3.png, id=169, 433.62pt x 433.62pt>
+File: ./images/our_simple_boltz3.png Graphic file (type png)
+<use ./images/our_simple_boltz3.png>
+Package pdftex.def Info: ./images/our_simple_boltz3.png  used on input line 93.
+(pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
+
+Overfull \hbox (32.02734pt too wide) in paragraph at lines 90--95
+[][] 
+ []
+
+<./images/our_simple_mdp_gvi_mm167.png, id=171, 433.62pt x 433.62pt>
+File: ./images/our_simple_mdp_gvi_mm167.png Graphic file (type png)
+<use ./images/our_simple_mdp_gvi_mm167.png>
+Package pdftex.def Info: ./images/our_simple_mdp_gvi_mm167.png  used on input line 105.
+(pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
+<./images/our_simple_mdp_gvi_mm1692.png, id=172, 433.62pt x 433.62pt>
+File: ./images/our_simple_mdp_gvi_mm1692.png Graphic file (type png)
+<use ./images/our_simple_mdp_gvi_mm1692.png>
+Package pdftex.def Info: ./images/our_simple_mdp_gvi_mm1692.png  used on input line 106.
+(pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
+<./images/our_simple_mdp_gvi_mm176.png, id=173, 433.62pt x 433.62pt>
+File: ./images/our_simple_mdp_gvi_mm176.png Graphic file (type png)
+<use ./images/our_simple_mdp_gvi_mm176.png>
+Package pdftex.def Info: ./images/our_simple_mdp_gvi_mm176.png  used on input line 107.
+(pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
+
+Overfull \hbox (32.02734pt too wide) in paragraph at lines 104--109
+[][] 
+ []
+
+[7 <./images/simpleMDP_GVI_boltz_paper.png> <./images/simpleMDP_GVI_mm_paper.png> <./images/our_simple_boltz1.png> <./images/our_simple_boltz2.png> <./images/our_simple_boltz3.png> <./images/our_simple_mdp_gvi_mm167.png> <./images/our_simple_mdp_gvi_mm1692.png> <./images/our_simple_mdp_gvi_mm176.png>]
+<./images/simpleMDP_boltz_paper_diff_beta.png, id=194, 745.78625pt x 244.915pt>
+File: ./images/simpleMDP_boltz_paper_diff_beta.png Graphic file (type png)
+<use ./images/simpleMDP_boltz_paper_diff_beta.png>
+Package pdftex.def Info: ./images/simpleMDP_boltz_paper_diff_beta.png  used on input line 124.
+(pdftex.def)             Requested size: 278.23827pt x 91.37201pt.
+<./images/simpleMDP_boltz_our_diff_beta.png, id=200, 433.62pt x 433.62pt>
+File: ./images/simpleMDP_boltz_our_diff_beta.png Graphic file (type png)
+<use ./images/simpleMDP_boltz_our_diff_beta.png>
+Package pdftex.def Info: ./images/simpleMDP_boltz_our_diff_beta.png  used on input line 141.
+(pdftex.def)             Requested size: 160.97922pt x 160.97943pt.
+<./images/simpleMDP_mm_our_diff_beta.png, id=201, 433.62pt x 433.62pt>
+File: ./images/simpleMDP_mm_our_diff_beta.png Graphic file (type png)
+<use ./images/simpleMDP_mm_our_diff_beta.png>
+Package pdftex.def Info: ./images/simpleMDP_mm_our_diff_beta.png  used on input line 142.
+(pdftex.def)             Requested size: 160.97922pt x 160.97943pt.
+<./images/randomMDP_paper.png, id=203, 1260.71pt x 323.2075pt>
+File: ./images/randomMDP_paper.png Graphic file (type png)
+<use ./images/randomMDP_paper.png>
+Package pdftex.def Info: ./images/randomMDP_paper.png  used on input line 164.
+(pdftex.def)             Requested size: 198.7425pt x 50.94983pt.
+
+Underfull \vbox (badness 2970) has occurred while \output is active []
+
+ [8 <./images/simpleMDP_boltz_paper_diff_beta.png> <./images/simpleMDP_boltz_our_diff_beta.png> <./images/simpleMDP_mm_our_diff_beta.png>]
+<./images/taxi_1.png, id=218, 462.528pt x 346.896pt>
+File: ./images/taxi_1.png Graphic file (type png)
+<use ./images/taxi_1.png>
+Package pdftex.def Info: ./images/taxi_1.png  used on input line 216.
+(pdftex.def)             Requested size: 124.65132pt x 113.80908pt.
+<./images/taxi_2.png, id=219, 462.528pt x 346.896pt>
+File: ./images/taxi_2.png Graphic file (type png)
+<use ./images/taxi_2.png>
+Package pdftex.def Info: ./images/taxi_2.png  used on input line 217.
+(pdftex.def)             Requested size: 124.65132pt x 113.80908pt.
+<./images/taxi_3.png, id=220, 462.528pt x 346.896pt>
+File: ./images/taxi_3.png Graphic file (type png)
+<use ./images/taxi_3.png>
+Package pdftex.def Info: ./images/taxi_3.png  used on input line 218.
+(pdftex.def)             Requested size: 124.65132pt x 113.80908pt.
+
+Overfull \hbox (20.10938pt too wide) in paragraph at lines 215--220
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./images/randomMDP_paper.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+<./images/lunar_paper1.png, id=227, 518.01584pt x 131.92912pt>
+File: ./images/lunar_paper1.png Graphic file (type png)
+<use ./images/lunar_paper1.png>
+Package pdftex.def Info: ./images/lunar_paper1.png  used on input line 231.
+(pdftex.def)             Requested size: 362.60861pt x 92.34975pt.
+<./images/lunar_paper2.png, id=228, 341.46362pt x 131.92912pt>
+File: ./images/lunar_paper2.png Graphic file (type png)
+<use ./images/lunar_paper2.png>
+Package pdftex.def Info: ./images/lunar_paper2.png  used on input line 232.
+(pdftex.def)             Requested size: 239.0229pt x 92.34975pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+
+ []
+
+<./images/lunar_rep1.png, id=229, 426.54462pt x 281.49924pt>
+File: ./images/lunar_rep1.png Graphic file (type png)
+<use ./images/lunar_rep1.png>
+Package pdftex.def Info: ./images/lunar_rep1.png  used on input line 239.
+(pdftex.def)             Requested size: 170.6148pt x 112.59769pt.
+<./images/lunar_rep2.png, id=230, 438.67384pt x 281.49924pt>
+File: ./images/lunar_rep2.png Graphic file (type png)
+<use ./images/lunar_rep2.png>
+Package pdftex.def Info: ./images/lunar_rep2.png  used on input line 240.
+(pdftex.def)             Requested size: 175.46642pt x 112.59769pt.
+<./images/lunar_rep3.png, id=231, 590.28584pt x 198.37872pt>
+File: ./images/lunar_rep3.png Graphic file (type png)
+<use ./images/lunar_rep3.png>
+Package pdftex.def Info: ./images/lunar_rep3.png  used on input line 241.
+(pdftex.def)             Requested size: 354.17422pt x 119.02814pt.
+
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [10 <./images/taxi_1.png> <./images/taxi_2.png> <./images/taxi_3.png> <./images/lunar_paper1.png> <./images/lunar_paper2.png> <./images/lunar_rep1.png> <./images/lunar_rep2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
+
+ []
+
+) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/5-conclusion.tex) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+ [11 <./images/lunar_rep3.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+ (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: D3AE1318FA889D72521C717CCD9C4A67;718.
+(rerunfilecheck)             Checksum: ED180B364085F7BF7347CFB3A1C8B34B;1219.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 12064 strings out of 478582
- 193813 string characters out of 2844816
- 515378 words of memory out of 3000000
- 30016 multiletter control sequences out of 15000+600000
- 489566 words of font info for 80 fonts, out of 8000000 for 9000
+ 12157 strings out of 481239
+ 199194 string characters out of 5920378
+ 630921 words of memory out of 5000000
+ 26943 multiletter control sequences out of 15000+600000
+ 575398 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,8n,76p,1005b,339s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\user\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
-000.pk>{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
-}<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb>
-<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (1 page, 39658 bytes).
+ 48i,14n,46p,808b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.pdf (11 pages, 1519561 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 26665 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 26407 words of extra memory for PDF output out of 29859 (max. 10000000)
 

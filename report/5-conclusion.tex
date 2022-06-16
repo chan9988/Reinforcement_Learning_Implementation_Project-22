@@ -1,8 +1,14 @@
 \section{Conclusion}
 \label{section:conclusion}
-Please provide succinct concluding remarks for your report. You may discuss the following aspects:
+The whole survey and replication through the paper could summarize the advantages of Mellowmax in the following points:
 \begin{itemize}
-    \item The potential future research directions
-    \item Any technical limitations
-    \item Any latest results on the problem of interest
+\item The non-expansion property: the convergence of GVI is guaranteed
+\item more stable during the training
 \end{itemize}
+and the disadvantages of Mellowmax is that:
+\begin{itemize}
+\item Using Mellowmax operator may need more time to solve beta, but may get better updates during training.
+In LunarLander, it takes about 0.0014 sec per step with Boltzmann softmax and 0.0046 sec per step with Mellomax.
+\end{itemize}
+This paper proposed the Mellowmax operator as an alternative to the Boltzmann softmax operator. We also replicated that mellowmax has several desirable properties and that it works favorably in practice. Arguably, mellowmax could be used in place of Boltzmann throughout reinforcement-learning research.
+

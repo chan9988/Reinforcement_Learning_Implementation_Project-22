@@ -7,7 +7,7 @@ from tqdm import tqdm
 import glob
 import os
 from PIL import Image
-
+from pathlib import Path
 # === Environment settings ===
 # We only care about s1 since s2 is a terminal state.
 # R = {'s1': {'a': {'s1': 0.122,
@@ -279,6 +279,7 @@ def generalized_value_iteration(
 
 if __name__ == '__main__':
     SAVE_DIR = 'data/sample_mdp/GVI'
+    Path(SAVE_DIR).mkdir(exist_ok=True)
     generalized_value_iteration(
         # Method: 'Boltzmann Softmax' or 'Mellowmax'
         # method='Boltzmann Softmax',

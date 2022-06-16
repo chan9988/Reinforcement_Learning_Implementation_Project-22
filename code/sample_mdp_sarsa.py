@@ -6,7 +6,7 @@ import math
 from scipy import optimize
 from tqdm import tqdm
 from copy import deepcopy
-
+from pathlib import Path
 
 class sample_mdp:
     def __init__(self):
@@ -174,5 +174,6 @@ def train(method: str,
 if __name__ == '__main__':
     # Method: ['Boltzmann Softmax', 'Mellowmax']
     SAVE_DIR = 'data/sample_mdp/SARSA'
+    Path(SAVE_DIR).mkdir(exist_ok=True)
     # train(method='Boltzmann Softmax', save_dir=SAVE_DIR)
     train(method='Mellowmax', save_dir=SAVE_DIR)

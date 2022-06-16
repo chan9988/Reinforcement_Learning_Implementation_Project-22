@@ -25,7 +25,7 @@ Author presents a new softmax operator that is similar to the Boltzmann operator
 \includegraphics[width=0.7\textwidth]{mel2.png}
 \end{figure}
 
-Author proves that $mm\omega$ is a non-expansion operator, and therefore, GVI and SARSA under $mm\omega$ are guaranteed to converge to a unique fixed point.
+Author proves that $mm_\omega$ is a non-expansion operator, and therefore, GVI and SARSA under $mm_\omega$ are guaranteed to converge to a unique fixed point.
 Furthermore, the operator acts more and more like pure maximization as the value of $\omega$ is increased. Conversely, as $\omega$ goes to $-\infty$, the operator approaches the minimum.
 And as ${\omega}$ gets closer to zero, $mm_{\omega}(x)$ approaches the
 mean of the values in $X$.
@@ -49,4 +49,4 @@ After using the method of Lagrange multipliers to solve this system of equations
 
 The argument for the existence of a unique root is simple. As $\beta$ → $\infty$, the term corresponding to the best action dominates, and so, the function is positive. Conversely, as $\beta$ → $-\infty$, the term corresponding to the action with lowest utility dominates, and so the function is negative. Finally, by taking the derivative, it is clear that the function is monotonically increasing, allowing us to conclude that there exists only a single root. Therefore, we can find $\beta$ easily using any root-finding algorithm. 
 \newline\newline
-This policy has the same form as Boltzmann softmax, but with a parameter $\beta$ whose value depends indirectly on $\omega$. This mathematical form arose not from the structure of $mm\omega$, but from maximizing the entropy. One way to view the use of the Mellowmax operator, then, is as a form of Boltzmann policy with a temperature parameter chosen adaptively in each state to ensure that the non-expansion property holds.
+This policy has the same form as Boltzmann softmax, but with a parameter $\beta$ whose value depends indirectly on $\omega$. This mathematical form arose not from the structure of $mm_\omega$, but from maximizing the entropy. One way to view the use of the Mellowmax operator, then, is as a form of Boltzmann policy with a temperature parameter chosen adaptively in each state to ensure that the non-expansion property holds.

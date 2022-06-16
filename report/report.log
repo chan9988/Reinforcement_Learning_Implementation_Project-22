@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.7)  16 JUN 2022 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.7)  16 JUN 2022 19:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -607,53 +607,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--67
  []
 
 (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/3-implementation.tex
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 11.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 12.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./images/mel2.png> <./images/entropy2.png> <./images/result2.png>] [3]
-<./images/taxi.png, id=123, 152.57pt x 135.50626pt>
+ [2 <./images/mel2.png> <./images/entropy2.png> <./images/result2.png>]
+Underfull \vbox (badness 2229) has occurred while \output is active []
+
+ [3]
+<./images/taxi.png, id=125, 152.57pt x 135.50626pt>
 File: ./images/taxi.png Graphic file (type png)
 <use ./images/taxi.png>
-Package pdftex.def Info: ./images/taxi.png  used on input line 118.
+Package pdftex.def Info: ./images/taxi.png  used on input line 119.
 (pdftex.def)             Requested size: 99.37125pt x 88.25996pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--135
+Underfull \hbox (badness 10000) in paragraph at lines 122--136
 
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 121--135
-\T1/ptm/m/n/10 (+20) we pre-form SARSA with epsilon-greedy, SARSA with Boltz-mann soft-max and SARSA
+Underfull \hbox (badness 1430) in paragraph at lines 122--136
+\T1/ptm/m/n/10 (+20) We pre-form SARSA with epsilon-greedy, SARSA with Boltz-mann soft-max and SARSA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--135
+Underfull \hbox (badness 10000) in paragraph at lines 122--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--135
+Underfull \hbox (badness 10000) in paragraph at lines 122--136
 
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 121--135
+Underfull \hbox (badness 10000) in paragraph at lines 122--136
+
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 122--136
 \T1/ptm/m/n/10 (+20) In epsilon-greedy method, train-ing and test-ing both use epsilon-greedy to se-lect ac-tion.
  []
 
 [4 <./images/taxi.png>]) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/4-evaluation.tex
-<./images/simple_mdp_fig.png, id=135, 618.31pt x 434.62375pt>
+<./images/simple_mdp_fig.png, id=137, 618.31pt x 434.62375pt>
 File: ./images/simple_mdp_fig.png Graphic file (type png)
 <use ./images/simple_mdp_fig.png>
 Package pdftex.def Info: ./images/simple_mdp_fig.png  used on input line 23.
 (pdftex.def)             Requested size: 99.37125pt x 69.84628pt.
- [5 <./images/simple_mdp_fig.png>]
+
+Underfull \vbox (badness 2213) has occurred while \output is active []
+
+ [5]
 <./images/SARSA_Boltz_paper.png, id=144, 695.59875pt x 557.08125pt>
 File: ./images/SARSA_Boltz_paper.png Graphic file (type png)
 <use ./images/SARSA_Boltz_paper.png>
@@ -674,31 +680,28 @@ File: ./images/SARSA_sampleMDP_Mellowmax_smoothed.png Graphic file (type png)
 <use ./images/SARSA_sampleMDP_Mellowmax_smoothed.png>
 Package pdftex.def Info: ./images/SARSA_sampleMDP_Mellowmax_smoothed.png  used on input line 43.
 (pdftex.def)             Requested size: 160.97679pt x 142.26532pt.
-<./images/simpleMDP_GVI_boltz_paper.png, id=153, 586.19pt x 408.52625pt>
+ [6 <./images/simple_mdp_fig.png> <./images/SARSA_Boltz_paper.png> <./images/SARSA_sampleMDP_Boltzmann Softmax_smoothed.png> <./images/white.png> <./images/SARSA_sampleMDP_Mellowmax_smoothed.png>]
+<./images/simpleMDP_GVI_boltz_paper.png, id=165, 586.19pt x 408.52625pt>
 File: ./images/simpleMDP_GVI_boltz_paper.png Graphic file (type png)
 <use ./images/simpleMDP_GVI_boltz_paper.png>
 Package pdftex.def Info: ./images/simpleMDP_GVI_boltz_paper.png  used on input line 75.
 (pdftex.def)             Requested size: 169.91919pt x 142.26323pt.
-<./images/simpleMDP_GVI_mm_paper.png, id=154, 601.24625pt x 384.43625pt>
+<./images/simpleMDP_GVI_mm_paper.png, id=166, 601.24625pt x 384.43625pt>
 File: ./images/simpleMDP_GVI_mm_paper.png Graphic file (type png)
 <use ./images/simpleMDP_GVI_mm_paper.png>
 Package pdftex.def Info: ./images/simpleMDP_GVI_mm_paper.png  used on input line 76.
 (pdftex.def)             Requested size: 169.92577pt x 142.26851pt.
-
-Underfull \vbox (badness 5667) has occurred while \output is active []
-
- [6 <./images/SARSA_Boltz_paper.png> <./images/SARSA_sampleMDP_Boltzmann Softmax_smoothed.png> <./images/white.png> <./images/SARSA_sampleMDP_Mellowmax_smoothed.png>]
-<./images/our_simple_boltz1.png, id=167, 433.62pt x 433.62pt>
+<./images/our_simple_boltz1.png, id=168, 433.62pt x 433.62pt>
 File: ./images/our_simple_boltz1.png Graphic file (type png)
 <use ./images/our_simple_boltz1.png>
 Package pdftex.def Info: ./images/our_simple_boltz1.png  used on input line 91.
 (pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
-<./images/our_simple_boltz2.png, id=168, 433.62pt x 433.62pt>
+<./images/our_simple_boltz2.png, id=169, 433.62pt x 433.62pt>
 File: ./images/our_simple_boltz2.png Graphic file (type png)
 <use ./images/our_simple_boltz2.png>
 Package pdftex.def Info: ./images/our_simple_boltz2.png  used on input line 92.
 (pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
-<./images/our_simple_boltz3.png, id=169, 433.62pt x 433.62pt>
+<./images/our_simple_boltz3.png, id=170, 433.62pt x 433.62pt>
 File: ./images/our_simple_boltz3.png Graphic file (type png)
 <use ./images/our_simple_boltz3.png>
 Package pdftex.def Info: ./images/our_simple_boltz3.png  used on input line 93.
@@ -708,17 +711,17 @@ Overfull \hbox (32.02734pt too wide) in paragraph at lines 90--95
 [][] 
  []
 
-<./images/our_simple_mdp_gvi_mm167.png, id=171, 433.62pt x 433.62pt>
+<./images/our_simple_mdp_gvi_mm167.png, id=172, 433.62pt x 433.62pt>
 File: ./images/our_simple_mdp_gvi_mm167.png Graphic file (type png)
 <use ./images/our_simple_mdp_gvi_mm167.png>
 Package pdftex.def Info: ./images/our_simple_mdp_gvi_mm167.png  used on input line 105.
 (pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
-<./images/our_simple_mdp_gvi_mm1692.png, id=172, 433.62pt x 433.62pt>
+<./images/our_simple_mdp_gvi_mm1692.png, id=173, 433.62pt x 433.62pt>
 File: ./images/our_simple_mdp_gvi_mm1692.png Graphic file (type png)
 <use ./images/our_simple_mdp_gvi_mm1692.png>
 Package pdftex.def Info: ./images/our_simple_mdp_gvi_mm1692.png  used on input line 106.
 (pdftex.def)             Requested size: 118.05159pt x 128.03589pt.
-<./images/our_simple_mdp_gvi_mm176.png, id=173, 433.62pt x 433.62pt>
+<./images/our_simple_mdp_gvi_mm176.png, id=174, 433.62pt x 433.62pt>
 File: ./images/our_simple_mdp_gvi_mm176.png Graphic file (type png)
 <use ./images/our_simple_mdp_gvi_mm176.png>
 Package pdftex.def Info: ./images/our_simple_mdp_gvi_mm176.png  used on input line 107.
@@ -728,42 +731,46 @@ Overfull \hbox (32.02734pt too wide) in paragraph at lines 104--109
 [][] 
  []
 
-[7 <./images/simpleMDP_GVI_boltz_paper.png> <./images/simpleMDP_GVI_mm_paper.png> <./images/our_simple_boltz1.png> <./images/our_simple_boltz2.png> <./images/our_simple_boltz3.png> <./images/our_simple_mdp_gvi_mm167.png> <./images/our_simple_mdp_gvi_mm1692.png> <./images/our_simple_mdp_gvi_mm176.png>]
-<./images/simpleMDP_boltz_paper_diff_beta.png, id=194, 745.78625pt x 244.915pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./images/simpleMDP_GVI_boltz_paper.png> <./images/simpleMDP_GVI_mm_paper.png> <./images/our_simple_boltz1.png> <./images/our_simple_boltz2.png> <./images/our_simple_boltz3.png>]
+<./images/simpleMDP_boltz_paper_diff_beta.png, id=192, 745.78625pt x 244.915pt>
 File: ./images/simpleMDP_boltz_paper_diff_beta.png Graphic file (type png)
 <use ./images/simpleMDP_boltz_paper_diff_beta.png>
 Package pdftex.def Info: ./images/simpleMDP_boltz_paper_diff_beta.png  used on input line 124.
 (pdftex.def)             Requested size: 278.23827pt x 91.37201pt.
-<./images/simpleMDP_boltz_our_diff_beta.png, id=200, 433.62pt x 433.62pt>
+<./images/simpleMDP_boltz_our_diff_beta.png, id=198, 433.62pt x 433.62pt>
 File: ./images/simpleMDP_boltz_our_diff_beta.png Graphic file (type png)
 <use ./images/simpleMDP_boltz_our_diff_beta.png>
 Package pdftex.def Info: ./images/simpleMDP_boltz_our_diff_beta.png  used on input line 141.
 (pdftex.def)             Requested size: 160.97922pt x 160.97943pt.
-<./images/simpleMDP_mm_our_diff_beta.png, id=201, 433.62pt x 433.62pt>
+<./images/simpleMDP_mm_our_diff_beta.png, id=199, 433.62pt x 433.62pt>
 File: ./images/simpleMDP_mm_our_diff_beta.png Graphic file (type png)
 <use ./images/simpleMDP_mm_our_diff_beta.png>
 Package pdftex.def Info: ./images/simpleMDP_mm_our_diff_beta.png  used on input line 142.
 (pdftex.def)             Requested size: 160.97922pt x 160.97943pt.
-<./images/randomMDP_paper.png, id=203, 1260.71pt x 323.2075pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./images/our_simple_mdp_gvi_mm167.png> <./images/our_simple_mdp_gvi_mm1692.png> <./images/our_simple_mdp_gvi_mm176.png> <./images/simpleMDP_boltz_paper_diff_beta.png>]
+<./images/randomMDP_paper.png, id=211, 1260.71pt x 323.2075pt>
 File: ./images/randomMDP_paper.png Graphic file (type png)
 <use ./images/randomMDP_paper.png>
 Package pdftex.def Info: ./images/randomMDP_paper.png  used on input line 164.
 (pdftex.def)             Requested size: 198.7425pt x 50.94983pt.
-
-Underfull \vbox (badness 2970) has occurred while \output is active []
-
- [8 <./images/simpleMDP_boltz_paper_diff_beta.png> <./images/simpleMDP_boltz_our_diff_beta.png> <./images/simpleMDP_mm_our_diff_beta.png>]
-<./images/taxi_1.png, id=218, 462.528pt x 346.896pt>
+ [9 <./images/simpleMDP_boltz_our_diff_beta.png> <./images/simpleMDP_mm_our_diff_beta.png> <./images/randomMDP_paper.png>]
+<./images/taxi_1.png, id=225, 462.528pt x 346.896pt>
 File: ./images/taxi_1.png Graphic file (type png)
 <use ./images/taxi_1.png>
 Package pdftex.def Info: ./images/taxi_1.png  used on input line 216.
 (pdftex.def)             Requested size: 124.65132pt x 113.80908pt.
-<./images/taxi_2.png, id=219, 462.528pt x 346.896pt>
+<./images/taxi_2.png, id=226, 462.528pt x 346.896pt>
 File: ./images/taxi_2.png Graphic file (type png)
 <use ./images/taxi_2.png>
 Package pdftex.def Info: ./images/taxi_2.png  used on input line 217.
 (pdftex.def)             Requested size: 124.65132pt x 113.80908pt.
-<./images/taxi_3.png, id=220, 462.528pt x 346.896pt>
+<./images/taxi_3.png, id=227, 462.528pt x 346.896pt>
 File: ./images/taxi_3.png Graphic file (type png)
 <use ./images/taxi_3.png>
 Package pdftex.def Info: ./images/taxi_3.png  used on input line 218.
@@ -774,19 +781,16 @@ Overfull \hbox (20.10938pt too wide) in paragraph at lines 215--220
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./images/randomMDP_paper.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
-<./images/lunar_paper1.png, id=227, 518.01584pt x 131.92912pt>
+<./images/lunar_paper1.png, id=228, 518.01584pt x 131.92912pt>
 File: ./images/lunar_paper1.png Graphic file (type png)
 <use ./images/lunar_paper1.png>
 Package pdftex.def Info: ./images/lunar_paper1.png  used on input line 231.
 (pdftex.def)             Requested size: 362.60861pt x 92.34975pt.
-<./images/lunar_paper2.png, id=228, 341.46362pt x 131.92912pt>
+<./images/lunar_paper2.png, id=229, 341.46362pt x 131.92912pt>
 File: ./images/lunar_paper2.png Graphic file (type png)
 <use ./images/lunar_paper2.png>
 Package pdftex.def Info: ./images/lunar_paper2.png  used on input line 232.
@@ -801,25 +805,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--238
 
  []
 
-<./images/lunar_rep1.png, id=229, 426.54462pt x 281.49924pt>
+[10 <./images/taxi_1.png> <./images/taxi_2.png> <./images/taxi_3.png> <./images/lunar_paper1.png> <./images/lunar_paper2.png>]
+<./images/lunar_rep1.png, id=241, 426.54462pt x 281.49924pt>
 File: ./images/lunar_rep1.png Graphic file (type png)
 <use ./images/lunar_rep1.png>
 Package pdftex.def Info: ./images/lunar_rep1.png  used on input line 239.
 (pdftex.def)             Requested size: 170.6148pt x 112.59769pt.
-<./images/lunar_rep2.png, id=230, 438.67384pt x 281.49924pt>
+<./images/lunar_rep2.png, id=242, 438.67384pt x 281.49924pt>
 File: ./images/lunar_rep2.png Graphic file (type png)
 <use ./images/lunar_rep2.png>
 Package pdftex.def Info: ./images/lunar_rep2.png  used on input line 240.
 (pdftex.def)             Requested size: 175.46642pt x 112.59769pt.
-<./images/lunar_rep3.png, id=231, 590.28584pt x 198.37872pt>
+<./images/lunar_rep3.png, id=243, 590.28584pt x 198.37872pt>
 File: ./images/lunar_rep3.png Graphic file (type png)
 <use ./images/lunar_rep3.png>
 Package pdftex.def Info: ./images/lunar_rep3.png  used on input line 241.
 (pdftex.def)             Requested size: 354.17422pt x 119.02814pt.
 
-Underfull \vbox (badness 1769) has occurred while \output is active []
-
- [10 <./images/taxi_1.png> <./images/taxi_2.png> <./images/taxi_3.png> <./images/lunar_paper1.png> <./images/lunar_paper2.png> <./images/lunar_rep1.png> <./images/lunar_rep2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
  []
@@ -829,30 +831,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
  []
 
-) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/5-conclusion.tex) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.bbl)
+) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/5-conclusion.tex) (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.bbl [11 <./images/lunar_rep1.png> <./images/lunar_rep2.png> <./images/lunar_rep3.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
- [11 <./images/lunar_rep3.png>]
+ [12]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
  (/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: ED180B364085F7BF7347CFB3A1C8B34B;1219.
+(rerunfilecheck)             Checksum: 821E99215CB8E21345B21671E4318499;1220.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 12160 strings out of 481239
- 199221 string characters out of 5920378
- 630921 words of memory out of 5000000
+ 12164 strings out of 481239
+ 199252 string characters out of 5920378
+ 625921 words of memory out of 5000000
  26943 multiletter control sequences out of 15000+600000
- 575528 words of font info for 155 fonts, out of 8000000 for 9000
+ 575658 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,14n,46p,808b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.pdf (11 pages, 1520031 bytes).
+Output written on /home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.pdf (12 pages, 1520368 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
  26407 words of extra memory for PDF output out of 29859 (max. 10000000)
 

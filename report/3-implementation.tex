@@ -6,6 +6,7 @@
 \subsubsection{Simple MDP\ -\ SARSA}
 
 The pseudocode shows how we run SARSA in the simple MDP environtment.
+The introduction of simple MDP can be found here (figure\ \ref{fig:simple_mdp}).
 
 \begin{algorithm}
     \caption{Simple MDP\ -\ SARSA}\label{alg:SimpleMDP-SARSA}
@@ -67,7 +68,7 @@ Hence, it's more accurate if more various Q initial values are tried.
 The following pseudocode shows how we run generalized value iteration (GVI) in the randomly constructed MDP environtment to find the number of fixed points.
 Similar to\ \ref{sec:simpleMDP_GVI}, here we decide if > 1 fixed points by sampling initial Q values.
 Hence, it's more accurate if more various Q initial values are tried.
-(It explains this more here [\ref{randomMDP_finding_fixed_points_issue}].)
+(More discussion is here [\ref{randomMDP_finding_fixed_points_issue}].)
 
 \begin{algorithm}
     \caption{Ramdom MDPs\ -\ GVI}\label{alg:RandomMDP-GVI}
@@ -106,7 +107,7 @@ Hence, it's more accurate if more various Q initial values are tried.
                 \State{$N_\text{nonSingle}\leftarrow N_\text{nonSingle}+1$}
             \EndIf{}
         \EndFor{}
-        \State{Average number of cases that > 1 fixed points of all MDPs' all trials is $\frac{N_\text{nonSingle}}{N_\text{MDP}\times N_\text{trial}}$.}
+        \State{Average number of more-than-one-fixed-point cases of all MDPs' is $\frac{N_\text{nonSingle}}{N_\text{MDP}}$.}
     \end{algorithmic}
 \end{algorithm}
 
@@ -118,11 +119,11 @@ Hence, it's more accurate if more various Q initial values are tried.
 \includegraphics[width=0.25\textwidth]{taxi.png}
 \end{figure}
 
-environment (\cite{dearden1998bayesian}):
+Environment (\cite{dearden1998bayesian}):
 In this experience, s is the starting position, d is the destination, and f represents passenger, it will get +1 reward for delivering one passenger, +3 for two , +15 for three.
 \\
 \\
-we preform SARSA with epsilon-greedy, SARSA with Boltzmann softmax and SARSA with Mellowmax softmax. In this environment, there are 33 posible positions and three passengers, therefore, it has 33*2*2*2 = 264 states and four possible actions.
+We preform SARSA with epsilon-greedy, SARSA with Boltzmann softmax and SARSA with Mellowmax softmax. In this environment, there are 33 posible positions and three passengers, therefore, it has 33*2*2*2 = 264 states and four possible actions.
 \\
 \\
 In our algorithm, we set some prohibited state-action pair's Q values to negative infinity, like hit the wall. Moreover, durning the training period, we will not choose those action in order not to affect other Q values.

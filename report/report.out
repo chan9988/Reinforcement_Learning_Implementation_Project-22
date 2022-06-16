@@ -12,7 +12,7 @@
 \BOOKMARK [3][-]{subsubsection.4.1.1}{Simple MDP - SARSA}{subsection.4.1}% 12
 \BOOKMARK [3][-]{subsubsection.4.1.2}{Simple MDP - GVI}{subsection.4.1}% 13
 \BOOKMARK [3][-]{subsubsection.4.1.3}{Random MDPs}{subsection.4.1}% 14
-\BOOKMARK [3][-]{subsubsection.4.1.4}{How to determin wheter > 1 fixed points?}{subsection.4.1}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.4}{How to determin whether > 1 fixed points?}{subsection.4.1}% 15
 \BOOKMARK [2][-]{subsection.4.2}{Taxi Domain}{section.4}% 16
 \BOOKMARK [2][-]{subsection.4.3}{Lunar Lander Domain}{section.4}% 17
 \BOOKMARK [1][-]{section.5}{Conclusion}{}% 18

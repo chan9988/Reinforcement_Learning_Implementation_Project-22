@@ -57,17 +57,17 @@ Boltzmann Softmax and Mellowmax. An arrow is the updating direction and step siz
 Black points are the convergence fixed points. As we can see, in this case, there are two convergence points of Boltzmann Softmax's,
 while Mellowmax has only one convergence point. 
 
-Besides, the arrows on the figure tell us that the updating size is small 
+Besides, the arrows in the figure tell us that the updating size is small 
 when the Q pair locates at the position near the convergence point.
 This phenomenon is more obvious at the position between two convergence points especially.
 Thus, when there are more than one fixed points, 
-the value may stay in the area between two convergence points with a tiny updating size, 
+the value may stay around the area between two convergence points with a tiny updating size, 
 needing more iterations to reach a convergence point.
 
 Boltzmann Softmax does not have the non-expansion property, 
 so it is not under the convergence guarantee from the original GVI paper (\cite{littman1996generalized}). 
 If there are > 1 convergence fixed points, the noise may drive it to swing 
-between different points and lead to instability.
+between different fixed points and lead to instability.
 
 {\centering
 \begin{figure}[H]
@@ -168,8 +168,8 @@ while Mellowmax does not. In addition, Boltzmann Softmax requires more iteration
 Figure\ \ref{fig:randomMDP_paper} is our result.
 The way we construct random MDPs is a little different from the paper. 
 See Algorithm\ \ref{alg:RandomMDP-GVI} for details. We tried 200 MDPs; 100 trials were run for each MDP. 
-The values of no-termination and average iteration in the figure are the results of averaging all MDPs' all trials.
-The values of > 1 fixed points are the results of averaging all MDPs' number.
+The values of no-termination and average iteration in the figure are the results of averaging all MDPs' all trials' result.
+The values of > 1 fixed points are the results of averaging all MDPs' result.
 It can be seen that it presents the same characteristics as in Figure\ \ref{fig:randomMDP_paper}.
 
 \begin{figure}[H]
@@ -183,11 +183,11 @@ It can be seen that it presents the same characteristics as in Figure\ \ref{fig:
      $\text{mm}_\omega$ & 0 & 0 & 1048.794 \\ 
      \hline
     \end{tabular}
-    \caption{Random MDPs (our). Max iteration is set 2000. There are 200 MDPs tried; each MDP has 100 trials.}\label{fig:randomMDP_our}
+    \caption{Random MDPs (our). Max iteration is set 2000. There are 200 MDPs tried; each MDP runs 100 trials.}\label{fig:randomMDP_our}
 \end{figure}
 
 
-\subsubsection{How to determin wheter > 1 fixed points?}
+\subsubsection{How to determin whether > 1 fixed points?}
 {Note that the paper doesn't explain how they determine whether > 1 fixed points. 
 The approach we use to decide if > 1 fixed points is to sample different initial Q values 
 in each trial to see if there are different fixed points in all trials. 
@@ -195,7 +195,7 @@ That's why we run 100 trials for each MDP in figure \ref{fig:randomMDP_our}.
 Although getting no > 1 fixed points by this method doesn't means it must actually have no > 1 fixed points, 
 at least, we can derive it has a higher probability or less probability to have > 1 fixed points. 
 For example, in our experiment result, Mellowmax never has > 1 fixed points among all trials, 
-while Boltzmann has. We can infer that Boltzmann has at least a higher probability to have > 1 fixed points than Mellowmax.
+while Boltzmann has. We can infer that Boltzmann has a higher probability to have > 1 fixed points than Mellowmax from the sampling results.
 }\label{randomMDP_finding_fixed_points_issue}
 
 

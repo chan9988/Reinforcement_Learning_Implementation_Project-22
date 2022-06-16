@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex report"] 1655310159 "report.aux" "report.bbl" "report" 1655381540
+["bibtex report"] 1655353137 "report.aux" "report.bbl" "report" 1655353138
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1233624470 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
   "reference.bib" 1655273678 758 744f6ac2b6509d1fe81309c42dcd7a8a ""
-  "report.aux" 1655381540 7846 55e97833f04e9184eb9c9901e65da63a "pdflatex"
+  "report.aux" 1655353138 7836 100938c5f0bc4482ebb148e6148fdf5a "pdflatex"
   (generated)
   "report.blg"
   "report.bbl"
-["pdflatex"] 1655381539 "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.tex" "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.pdf" "report" 1655381540
+["pdflatex"] 1655353137 "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.tex" "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.pdf" "report" 1655353138
   "/etc/texmf/web2c/texmf.cnf" 1654588194 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.aux" 1655381540 7846 55e97833f04e9184eb9c9901e65da63a ""
+  "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.aux" 1655353138 7836 100938c5f0bc4482ebb148e6148fdf5a ""
   "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.tex" 1655273591 2246 cdc69c380a19bd42388a671c64f66777 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -149,7 +149,7 @@
   "1-overview.tex" 1655273716 723 d14ffa8100ea17f2239101828dfaa1a5 ""
   "2-algorithm.tex" 1655271890 3425 5b8365a2786215fa34f07f1a8b089311 ""
   "3-implementation.tex" 1655309943 8586 d11dd33acb9a33189a1010da68514be3 ""
-  "4-evaluation.tex" 1655310157 14990 7ec10d21cabac3eb89afbb16b959f977 ""
+  "4-evaluation.tex" 1655353135 14985 69980684e1a1f550e392a770f04bbd10 ""
   "5-conclusion.tex" 1655381539 908 ea002a42e66a31067771d0dc153c39b0 ""
   "images/SARSA_Boltz_paper.png" 1655261062 71820 bb1c1e0597335105f6fb127d8ade5c01 ""
   "images/SARSA_sampleMDP_Boltzmann Softmax_smoothed.png" 1654691710 47300 b35858226ff20ee7dca8976223c5f0f6 ""
@@ -182,14 +182,14 @@
   "images/taxi_3.png" 1655270887 19645 92dd2fd48a5281d37fbca454eb6b5a8b ""
   "images/white.png" 1655261404 550 d8b10a850e8346f114cefdb269f9578c ""
   "neurips_2020.sty" 1654585712 11309 0a12e5896af9b3e64d2bb3e796c5eb0a ""
-  "report.aux" 1655381540 7846 55e97833f04e9184eb9c9901e65da63a "pdflatex"
-  "report.bbl" 1655310159 1027 471b33b0663a1b869c03c6824ffd5920 "bibtex report"
-  "report.out" 1655381540 1219 ed180b364085f7bf7347cfb3a1c8b34b "pdflatex"
+  "report.aux" 1655353138 7836 100938c5f0bc4482ebb148e6148fdf5a "pdflatex"
+  "report.bbl" 1655353137 1027 471b33b0663a1b869c03c6824ffd5920 "bibtex report"
+  "report.out" 1655353138 1219 ed180b364085f7bf7347cfb3a1c8b34b "pdflatex"
   "report.tex" 1655273591 2246 cdc69c380a19bd42388a671c64f66777 ""
   (generated)
-  "report.log"
-  "report.out"
-  "report.aux"
-  "report.pdf"
-  "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.pdf"
   "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.log"
+  "report.out"
+  "/home/smallfish/repo/RL/Reinforcement_Learning_Implementation_Project-22/report/report.pdf"
+  "report.pdf"
+  "report.log"
+  "report.aux"
